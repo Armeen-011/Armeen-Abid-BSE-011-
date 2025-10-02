@@ -1,0 +1,67 @@
+# CLOUD COMPUTING - LAB 01: Installation of VMware and Ubuntu
+
+## 📝 Overview
+
+This repository documents the steps performed for **Cloud Computing Lab 01**, focusing on setting up a virtualization environment. [cite_start]The main objective was the successful installation of **VMware Workstation Pro 17** and the subsequent deployment of an **Ubuntu Server** operating system inside a new Virtual Machine (VM)[cite: 4, 11].
+
+## 🧑‍💻 Project Details
+
+| Field | Detail |
+| :--- | :--- |
+| **Course** | [cite_start]CLOUD COMPUTING [cite: 1, 6] |
+| **Lab Title** | [cite_start]LAB 01: Installation of Vmware and Ubuntu [cite: 4, 11] |
+| **Submitted By** | [cite_start]Armeen Abid (Reg No: BSE-011) [cite: 2, 7, 8] |
+| **Submitted To** | [cite_start]Engr Shoaib [cite: 3, 9] |
+| **VMware Version** | [cite_start]Workstation Pro 17 [cite: 21, 29, 30, 31] |
+
+---
+
+## 🛠️ Prerequisites
+
+To replicate this setup, you will need the following software:
+
+1.  **VMware Workstation Pro 17**.
+2.  [cite_start]**Ubuntu Server ISO Image:** The specific file used was an ISO for **Ubuntu 64-bit Server 24.04.3**[cite: 53].
+
+---
+
+## 🚀 Installation & Setup Guide
+
+[cite_start]The VM was created using the **Typical (recommended)** configuration [cite: 34] [cite_start]for a Workstation 17.5 or later virtual machine[cite: 35].
+
+### 1. Create a New Virtual Machine
+
+* [cite_start]**Configuration Type:** **Typical (recommended)** was selected in the New Virtual Machine Wizard[cite: 34].
+* [cite_start]**Installer:** The installation was started by selecting the **Installer disc image file (iso)** option [cite: 51] [cite_start]and pointing to the Ubuntu ISO file (`C:\Users\aimen\Downloads\ubuntu-24.04.3-live-serve`)[cite: 52].
+    * [cite_start]The wizard automatically detected the OS as **Ubuntu 64-bit Server 24.04.3**[cite: 53].
+* [cite_start]**VM Name:** The virtual machine was named **Ubuntu 64-bit (2)**[cite: 67, 100].
+* [cite_start]**Disk Capacity:** The maximum disk size was set to **20 GB** [cite: 83, 106][cite_start], which is the recommended size for Ubuntu 64-bit[cite: 84]. [cite_start]The disk was configured to **Split virtual disk into multiple files**[cite: 87].
+* **Final Hardware Settings:**
+    * [cite_start]**Version:** Workstation 17.5 or later [cite: 103]
+    * [cite_start]**Operating System:** Ubuntu 64-bit [cite: 104]
+    * [cite_start]**Memory:** 4096 MB [cite: 108]
+    * [cite_start]**Network Adapter:** NAT [cite: 110]
+    * [cite_start]**Other Devices:** 2 CPU cores, CD/DVD, USB Controller, Sound Card [cite: 112]
+
+### 2. Ubuntu Server Installation
+
+* [cite_start]**Installation Base:** The base installation chosen was the standard **Ubuntu Server**[cite: 191].
+* [cite_start]**User Credentials:** The username used to log in after installation was **`aimen`**[cite: 232, 261].
+
+---
+
+## ✅ Final System Environment
+
+[cite_start]The virtual machine was successfully started, and the system information was captured after logging in[cite: 234, 262].
+
+| Component | Detail |
+| :--- | :--- |
+| **Guest OS Version** | [cite_start]Ubuntu 24.04.3 LTS [cite: 234, 262] |
+| **Kernel** | [cite_start]GNU/Linux 6.8.0-71-generic x86\_64 [cite: 234, 262] |
+| [cite_start]**User** | aimen [cite: 232, 261] |
+| **IPv4 Address (ens33)** | [cite_start]192.168.75.131 [cite: 241, 278] |
+| **System Load** | [cite_start]0.12 [cite: 241, 271] |
+| **Processes** | [cite_start]245 [cite: 241, 273] |
+| **Memory Usage** | [cite_start]3% [cite: 241, 277] |
+| **Disk Usage** | [cite_start]27.6% of 23.45GB (Usage of `/`) [cite: 275] |
+| **Swap Usage** | [cite_start]0% [cite: 243, 279] |
